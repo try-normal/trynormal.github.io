@@ -1,0 +1,163 @@
+/* Set background color of the body to white */
+body {
+  background-color: white;
+}
+
+/* Center h1 and h2 elements */
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255); /* Text color for paragraphs */
+}
+h2 {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255); /* Text color for paragraphs */
+}
+/* Style the main paragraph text */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255); /* Text color for paragraphs */
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(0, 250, 0); /* Text color for paragraphs */
+}
+
+td {
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(255, 255, 255); /* Text color for paragraphs */
+}
+table,
+th,
+td {
+  border: 2px solid rgb(252, 255, 255);
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Style images */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Add some styles for specific images */
+img[alt="Manchester United Logo"] {
+  width: 180px;
+}
+
+img[alt="Alan Logo"] {
+  width: 110px;
+}
+
+img[alt="Ryan Logo"] {
+  width: 140px;
+}
+
+/* Navigation Menu Styles */
+nav {
+  background-color: #333; /* Background color */
+  color: #fff; /* Text color */
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #fff; /* Add an underline on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+/* CSS for background image */
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/589/474/457/league-premier-soccer-sports-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: transparent; /* Set the background color to transparent */
+}
+/* Default styles for larger screens */
+/* Add your existing CSS styles here */
+
+/* Media query for screens with a maximum width of 768px (typical tablet size) */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+/* Media query for screens with a maximum width of 480px (typical mobile size) */
+@media (max-width: 480px) {
+  /* Further adjust styles for mobile screens */
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Change color and add underline on hover for navigation menu links */
+nav a:hover {
+  color: #ff5722; /* Change the color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
